@@ -1,0 +1,30 @@
+{
+  "name": "miserenkov/yii2-queue",
+  "description": "Yii2 component for queues",
+  "keywords": ["yii2", "queue"],
+  "type": "yii2-component",
+  "license": "MIT",
+  "support": {
+    "email": "mi.serenkov@gmail.com",
+    "issues": "https://github.com/miserenkov/yii2-queue/issues",
+    "source": "https://github.com/miserenkov/yii2-queue"
+  },
+  "authors": [
+    {
+      "name": "Misha Serenkov",
+      "email": "mi.serenkov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": "^2.0.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "miserenkov\\queue\\": "src"
+    }
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.2"
+  }
+}
